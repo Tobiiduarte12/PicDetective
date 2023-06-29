@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PicDetective</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>PicDetective</h1>
+      <div class="header-inputs">
+        <button id="btn-inicio" class="head-btn">Borrar todo</button>
+        <form class="search-form">
+          <input id="search-input" type="text" placeholder="Buscar..." />
+          <button class="head-btn" id="btn-form">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </form>
+      </div>
+
+      <span class="error-msg"></span>
+    </header>
+    <section id="galery-container"></section>
+
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
